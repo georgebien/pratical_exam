@@ -1,4 +1,0 @@
-SELECT B.*,C.*, MAX(A.salary) FROM salary A 
-INNER JOIN employees B ON A.id = B.salary_id 
-INNER JOIN departments C ON C.id = B.department_id
-

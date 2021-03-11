@@ -1,4 +1,0 @@
-SELECT name FROM employees A
-INNER JOIN departments B ON b.id = A.department_id
-WHERE B.department = 'IT' 
-AND YEAR(date_hired) >= '2018'
